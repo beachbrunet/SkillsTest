@@ -17,6 +17,18 @@ background-repeat: no-repeat;
 
 
 /* 01.History */
+#history {
+background-image: url(images/history-bg.png);
+min-height: 50em;
+background-size: cover;
+background-repeat: no-repeat;
+}
 
 
 /* 02.Climb */
+#climb {
+background-image: url(images/team-bg.png);
+min-height: 50em;
+background-size: cover;
+background-repeat: no-repeat;
+}
