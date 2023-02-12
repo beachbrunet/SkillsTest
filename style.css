@@ -1,6 +1,7 @@
 /* NavBar */
-
-
+.container {
+    display: flex;
+  }
 
 
 
@@ -13,7 +14,6 @@ min-height: 50em;
 background-size: cover;
 background-repeat: no-repeat;
 }
-
 
 
 
