@@ -1,9 +1,8 @@
 /* NavBar */
-.container {
-    display: flex;
-  }
+#a {
+color:aqua
 
-
+}
 
 /* homepage */
 #home {
@@ -13,6 +12,7 @@ min-height: 50em;
 /* max-inline-size: 200em; */
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center;
 }
 
 
@@ -24,8 +24,12 @@ background-image: url(images/history-bg.png);
 min-height: 50em;
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center;
 }
 
+/* Carousel */
+.carousel .item {
+}
 
 /* 02.Climb */
 #climb {
@@ -33,4 +37,5 @@ background-image: url(images/team-bg.png);
 min-height: 50em;
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center;
 }
