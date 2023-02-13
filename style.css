@@ -1,6 +1,5 @@
 body {
     font-family: 'Nunito', sans-serif;
-
 }
 
 /* homepage */
@@ -30,10 +29,10 @@ mx-auto{
 
 
 /* Carousel */
-#carousel {
+/* #carousel {
 
 
-}
+} */
 /* didnt have background image so I created my closest guess */
 #carousel-background{
     background-color: rgba(64, 75, 99, 0.65);
@@ -50,3 +49,5 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+
+/* footer */
