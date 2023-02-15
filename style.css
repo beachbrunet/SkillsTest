@@ -18,7 +18,7 @@ min-height: 50em;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-font-family: 'Nunito', sans-serif;
+font-family: 'Lato', sans-serif;
 }
 /* Hrefs */
 a {
@@ -50,7 +50,7 @@ min-height: 50em;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-font-family: 'Nunito', sans-serif;
+font-family: 'Lato', sans-serif;
 
 }
 
@@ -75,7 +75,7 @@ font-family: 'Nunito', sans-serif;
 .btn-primary {
     text-decoration: underline;
     font-size: 20px;
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color:rgba(177,180,189);
     background-color: rgba(67,79, 106);
     border: none;
@@ -88,6 +88,11 @@ font-family: 'Nunito', sans-serif;
     transition-duration: 0.4s;
 }
 
+/* schedule */
+.schedule {
+display: block;
+padding: 30px;
+}
 
 
 /* footer */
