@@ -12,10 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Saira+Condensed:wght@600&display=swap" rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
-    <!-- added bootstrap for a more smoother experience -->
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 
@@ -39,7 +36,7 @@
           />
         </div>
         <div class="col-md-2">
-          <a class = "#history" href="#history"> 01. HISTORY</a>
+          <a class = "#history" href="#history">01. HISTORY</a>
           <a class = "#team" href="#climb">02. TEAM</a>
         </div>
       </nav>
@@ -48,9 +45,6 @@
     <!-- homepage LOSANGELES MOUNTAINS -->
     <!-- add 01.history link to jump down to the main page below same with 02.team -->
     <section id="home"></section>
-
-
-
 
     <!-- 01.History-->
     <!-- Has image history-bg.png -->
@@ -61,6 +55,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
           <!-- Carousel -->
+          <!-- made it automatic because I didnt see any arrows -->
 <div id="carousel-background">
     <div id="carousel" class="carouselslide mx-auto" style="width: 250px" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -74,18 +69,15 @@
       </div>
     </div>
   </div>
-  
   </div>
     </section>
-
-    
 
     <!-- 02.Climb /team-->
     <!-- Has image team-bg.png which should be renamed as climb not team -->
     <!-- Has schedule -->
     <section id="climb">
     <div id="climb-container">
-        <div class="clearfix">
+
           <img src="images/climb-h1.png" class="col-md-2 float-md-start mb-3 ms-md-3" alt="02.Climb" height="50">
   <p>
     Cras scelerisque id quam sed dignissim Pellentesque urna nunc,
@@ -95,35 +87,36 @@
 
 <!-- mountain links/ does not work atm-->
 <div id="mountains">
-<div class="container">
-  <div class="row">
+  <div class="container-fluid">
+  <!-- <div class="row">
+    <div class="col-12"> -->
     <div class="btn-group-sm" role="group" sans-serif>
       <button type="button" class="btn btn-primary">MOUNTAIN 1</button>
       <button type="button" class="btn btn-primary">MOUNTAIN 2</button>
     </div>
-    <!-- <div class="col-xs-6">
-      <button class="btn btn-block">MOUNTAIN 1</button>
   </div>
-  <div class="col-xs-6">
-      <button class="btn btn-block">MOUNTAIN 2</button>
-  </div> -->
 </div>
-</div>
-</section>
-
-
-
-
-
-
-
 
 
 <!-- Schedule -->
+<!-- Has occupency -->
+<!-- Has Vestibulum viverra -->
+<!-- <p> Schedule </p> -->
+<!-- 25 Nov2016, 28 Nov 2016, 18 Dec 2016,7 Jan 2017 -->
+<div id="schedule">
+  <div class="container">
+   <div class="card" style="width: 18rem";>
+     <div class="card-body">
+      <p> 25 Nov2016 </p>
+      <p> 28 Nov 2016 </p>
+      <p> 18 Dec 2016 </p>
+      <p> 7 Jan 2017 </p>
+     </div>
+  </div>
+</div>
 
-
-
-
+  
+</section>
 
 
 

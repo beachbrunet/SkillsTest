@@ -20,6 +20,13 @@ background-repeat: no-repeat;
 background-position: center;
 font-family: 'Nunito', sans-serif;
 }
+/* Hrefs */
+a {
+    text-decoration: underline;
+    color: (67,79, 106);
+}
+
+
 /* isp */
 mx-auto{
     margin-top: 10em;
@@ -64,45 +71,22 @@ font-family: 'Nunito', sans-serif;
 /* colors, blue is 67,79, 106 */
 /* colors grayish is 177,180,189 */
 
+/* need to fix font */
 .btn-primary {
     text-decoration: underline;
+    font-size: 20px;
     font-family: 'Saira Condensed', sans-serif;
     color:rgba(177,180,189);
     background-color: rgba(67,79, 106);
     border: none;
-    /* border-color:rgba(67,79, 106); */
-
 }
-/* .button {
-    display: inline-block;
-    vertical-align: top;
-    
 
-    color:  ;
-} */
-
+/* Hover colors */
 .btn:hover {
     color: rgba(67,79, 106) ;
     background-color: rgba(177, 180,189);
     transition-duration: 0.4s;
 }
-
-
-
-
-
-
-
-
-
-/* .mountain1:hover{
-    color: rgba(64, 75, 99, 0.65);
-    background-color: white;
-}
-.mountain2:hover{
-    color: rgba(64, 75, 99, 0.65);
-    background-color: white;
-} */
 
 
 
