@@ -1,8 +1,5 @@
 
-@import "bootstrap";
-body {
-    font-family: 'Nunito', sans-serif;
-}
+
 
 /* homepage */
 #home {
@@ -21,6 +18,7 @@ min-height: 50em;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+font-family: 'Nunito', sans-serif;
 }
 /* isp */
 mx-auto{
@@ -45,6 +43,8 @@ min-height: 50em;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+font-family: 'Nunito', sans-serif;
+
 }
 
 #climb-container {
@@ -63,18 +63,38 @@ background-position: center;
 
 }
 
-.btn:hover {
+/* colors, blue is 67,79, 106 */
+/* colors grayish is 177,180,189 */
+
+.btn-primary {
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    color:rgba(177,180,189);
+    background-color: rgba(67,79, 106);
+    /* border-color:rgba(67,79, 106); */
+
+}
+/* .button {
     display: inline-block;
     vertical-align: top;
-    color: rgba(67,79, 106);
-    background-color: (177, 180,189);
+    
+
+    color:  ;
+} */
+
+.btn:hover {
+    color: rgba(67,79, 106) ;
+    background-color: rgba(177, 180,189);
+    transition-duration: 0.4s;
 }
 
-.button {
 
 
 
-}
+
+
+
+
+
 /* .mountain1:hover{
     color: rgba(64, 75, 99, 0.65);
     background-color: white;
