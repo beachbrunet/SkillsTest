@@ -59,17 +59,17 @@ font-family: 'Nunito', sans-serif;
     background-color: rgba(67, 79, 106);
     justify-content: center;
     flex-direction: column;
-    text-decoration: underline;
-
 }
 
 /* colors, blue is 67,79, 106 */
 /* colors grayish is 177,180,189 */
 
 .btn-primary {
-    /* font-family: 'Roboto Condensed', sans-serif; */
+    text-decoration: underline;
+    font-family: 'Saira Condensed', sans-serif;
     color:rgba(177,180,189);
     background-color: rgba(67,79, 106);
+    border: none;
     /* border-color:rgba(67,79, 106); */
 
 }
