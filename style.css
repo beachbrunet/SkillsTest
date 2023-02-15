@@ -59,14 +59,22 @@ background-position: center;
     background-color: rgba(67, 79, 106);
     justify-content: center;
     flex-direction: column;
+    text-decoration: underline;
 
 }
 
-.btn {
+.btn:hover {
     display: inline-block;
-    margin: 0 20px;
+    vertical-align: top;
+    color: rgba(67,79, 106);
+    background-color: (177, 180,189);
 }
 
+.button {
+
+
+
+}
 /* .mountain1:hover{
     color: rgba(64, 75, 99, 0.65);
     background-color: white;
