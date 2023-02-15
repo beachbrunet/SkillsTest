@@ -20,20 +20,12 @@ background-repeat: no-repeat;
 background-position: center;
 font-family: 'Lato', sans-serif;
 }
-/* Hrefs */
-a {
-    text-decoration: underline;
-    color: (67,79, 106);
+
+.row {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
-
-
-/* isp */
-mx-auto{
-    margin-top: 10em;
-}
-
-
-/* Carousel */
 
 /* didnt have background image so I created my closest guess */
 #carousel-background{
