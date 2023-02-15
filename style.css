@@ -45,8 +45,32 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+#climb-container {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Mountains link */
+#mountains {
+    background-color: rgba(67, 79, 106);
+
+}
+
+
+
+.mountain1:hover{
+    color: rgba(64, 75, 99, 0.65);
+    background-color: (177,180,189);
+}
+.mountain2:hover{
+    color: rgba(64, 75, 99, 0.65);
+    background-color: white;
+}
+
 /* footer */
-#footer-content{
+/* #footer-content{
 background: rgba(64, 75, 99, 0.65);
 margin-top: 10em;
-}
+} */
