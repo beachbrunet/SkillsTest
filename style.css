@@ -17,6 +17,7 @@ a{
 }
 
 
+
 /* 01.History */
 #history {
 background-image: url(images/history-bg.png);
@@ -26,6 +27,15 @@ background-repeat: no-repeat;
 background-position: center;
 font-family: 'Lato', sans-serif;
 }
+
+/* History Card */
+#history-card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+
 
 /* 02.Climb section */
 .row {
