@@ -10,6 +10,12 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+/* Nav links I used the correct font but couldnt match it quite right */
+a{
+    font-family: 'Lato', sans-serif;
+    color: rgba(67,79, 106)
+}
+
 
 /* 01.History */
 #history {
@@ -21,10 +27,11 @@ background-position: center;
 font-family: 'Lato', sans-serif;
 }
 
+/* 02.Climb section */
 .row {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
 
 /* didnt have background image so I created my closest guess */
@@ -75,7 +82,7 @@ font-family: 'Lato', sans-serif;
 
 /* Hover colors */
 .btn:hover {
-    color: rgba(67,79, 106) ;
+    color: rgba(67,79, 106);
     background-color: rgba(177, 180,189);
     transition-duration: 0.4s;
 }
