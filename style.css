@@ -112,6 +112,38 @@ margin-top: 0;
 
 
 /* Media Quries */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    #home{
+    min-height: 20em;
+background-size: 150%;
+    }
+    /* edited this because you cannot read the text with the image */
+    #history {
+        min-height: 15em;
+        background-image: linear-gradient(#687fb0, #999999);
+    }
+    #carousel-background{
+        margin-top: 2em;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+
 /* @media (max-width: 576px){ 
     body { background-color: red;}
  } */
