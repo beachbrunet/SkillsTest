@@ -105,14 +105,14 @@ padding: 30px;
 
 
 /* footer */
-/* #footer-content{
-background: rgba(64, 75, 99, 0.65);
-margin-top: 10em;
-} */
+.footer-content{
+background-color: rgba(64, 75, 99);
+margin-top: 0;
+}
 
 
 /* Media Quries */
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
+/* @media (max-width: 576px){ 
+    body { background-color: red;}
+ } */
+
